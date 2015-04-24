@@ -45,13 +45,13 @@ LOCAL_PATH:= $(ROOT_DIR)
 
 libmm-vidpp-inc          += $(LOCAL_PATH)/inc
 libmm-vidpp-inc          += $(OMX_VIDEO_PATH)/vidc/common/inc
-libmm-vidpp-inc          += hardware/qcom/media/mm-core/inc
-libmm-vidpp-inc          += hardware/qcom/display/libgralloc
+libmm-vidpp-inc          += hardware/qcom/media-caf-kraft/mm-core/inc
+libmm-vidpp-inc          += hardware/qcom/display-caf-kraft/libgralloc
 libmm-vidpp-inc          += frameworks/native/include/media/openmax
 libmm-vidpp-inc          += frameworks/native/include/media/hardware
 libmm-vidpp-inc          += $(vidpp-inc)
-libmm-vidpp-inc          += hardware/qcom/display/libqdutils
-libmm-vidpp-inc          += hardware/qcom/display/libcopybit
+libmm-vidpp-inc          += hardware/qcom/display-caf-kraft/libqdutils
+libmm-vidpp-inc          += hardware/qcom/display-caf-kraft/libcopybit
 libmm-vidpp-inc          += frameworks/av/include/media/stagefright
 
 LOCAL_MODULE                    := libOmxVdpp
